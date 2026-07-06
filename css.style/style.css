@@ -1,0 +1,175 @@
+selector {
+    property: value;
+    propertytwo: value;
+
+}
+
+
+
+#test-name {
+    color: green;
+}
+
+/* div { */
+/* /* background-color: blue;
+     background-color: rgb(0 0 0/100%); Alpha Channel */
+/* background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/66/93/04/caption.jpg?w=800&h=800&s=1");
+    background-repeat: no-repeat; */
+
+
+/* background-attachment: fixed; */
+/* background-position: 10% 0%; */
+/* background-size: cover; */
+/* background-color: rgb(202, 171, 171); */
+/* padding:50px; */
+/* padding: 10px;
+    width: 300px;
+    border: 10px solid rgb(255, 0, 0);
+    outline: 10px solid rgb(52, 9, 151); */
+/* margin: auto; */
+/* border-width: 10px;
+    border-style: solid;
+    border-color: rgb(255, 0, 0); */
+/* border: 4px solid rgb(255, 0, 0); */
+
+/* 
+Block
+
+-take full width if no width
+-Add Line Break
+-respect margin and padding and all
+
+Inline
+
+-
+-didnt Add Line Break
+-dont respect width and height
+-respect margin and padding but only left and right
+
+Inline-Block
+
+-Allow Element Before and After It
+-respect margin and padding but only left and right
+-
+
+*/
+/* div {
+
+    background-color: rgb(223, 0, 0);
+    margin: 10px;
+    /* display: none; */
+
+
+/* .frist {
+    visibility: hidden;
+} */
+
+/* .frist {
+    border: 4px solid;
+    border-color: red;
+    outline: 4px solid rgb(0, 0, 0);
+}
+
+.second {
+    border: 4px solid;
+    border-color: white white white red;
+
+}
+
+.third {
+    border: 4px;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline: 4px solid rgb(0, 0, 0);
+} */
+
+
+
+/* .one {
+    border-bottom: 4px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+.two {
+    border-bottom: 4px solid rgb(217, 255, 0);
+    color: rgb(217, 255, 0);
+
+}
+
+.three {
+
+    border-bottom: 4px solid rgb(38, 0, 255);
+    color: rgb(38, 0, 255);
+
+}
+
+.four {
+
+    border-bottom: 4px solid rgb(0, 255, 42);
+    color: rgb(0, 255, 42);
+
+}
+
+
+
+.one,
+.two,
+.three,
+.four,
+.p{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+} */
+
+
+/* p {
+    color: rgb(150, 116, 116);
+    font-size: 40px;
+    background-color: brown;
+    width: fit-content;
+} */
+
+
+
+/* p {
+    color: rgb(177, 104, 104);
+    font-size: 40px;
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+
+
+} */
+
+/* div {
+
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(255, 0, 0);
+} */
+
+/* div {
+    text-align: Center;
+    vertical-align: middle;
+    direction: rtl;
+} */
+/* div {
+    text-decoration: underline;
+    text-transform: capitalize;
+} */
+/* div {
+    letter-spacing: 1px;
+    text-indent: 50px;
+
+}
+
+.m {
+
+    background-color: #704747;
+    width: 100px;
+    word-spacing: 10px;
+    word-break: break-all;
+    white-space: nowrap;
+
+} */
