@@ -313,6 +313,7 @@ h2 {
 
 
 /* .m1 {
+    width:calc((100% - 30px) / 4);
     background-color: red;
     font-weight: bold;
     position: absolute;
@@ -346,7 +347,7 @@ h2 {
 }
 
 .m2 {
-    width: calc((100%-30px)/4);
+    width:calc((100% - 30px) / 4);
     background-color: #ddd;
     border: 2px solid white;
     padding: 20px;
@@ -356,7 +357,7 @@ h2 {
 }
 
 .m3 {
-    width: calc((100%-30px)/4);
+    width:calc((100% - 30px) / 4);
     background-color: #ddd;
     border: 2px solid white;
     padding: 20px;
@@ -366,7 +367,7 @@ h2 {
 }
 
 .m4 {
-    width: calc((100%-30px)/4);
+  width:calc((100% - 30px) / 4);
     background-color: #ddd;
     border: 2px solid white;
     padding: 20px;
