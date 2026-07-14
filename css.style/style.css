@@ -354,57 +354,29 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 } */
-div {
-    background-color: #eee;
-    width: 800px;
-    text-align: center;
-    margin: 3px;
+div a {
+    background-color: red;
+    padding: 5px;
+    text-decoration: none;
+    border-bottom: 4px solid rgb(114, 82, 82);
+    float: left;
+    width: calc((100% - 10px)/5);
+    margin: 10px;
+    margin-top: 10px;
 
 }
 
-div.Fu {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: left;
-    width: 800px;
-}
-
-
-
-.Three span {
-    background-color: #eee;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: left;
-    width: calc((100% - 45px)/3);
-    margin-left: 15px;
-    margin-bottom: 3px;
+header {
+    background-color: white;
+    position: sticky;
+    top: 0px;
 }
 
 .clear {
     clear: both;
 }
 
-.Two span {
-    background-color: #eee;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: left;
-    width: calc((100% - 30px)/2);
-    margin-left: 15px;
-    margin-bottom: 3px;
-}
-
-.Clear {
-    clear: both;
-}
-
-.four span {
-    background-color: #eee;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: left;
-    width: calc((100% - 60px)/4);
-    margin-left: 15px;
-
+body {
+    min-height: 5000px;
+    position: relative;
 }
