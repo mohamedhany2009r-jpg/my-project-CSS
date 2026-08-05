@@ -1,0 +1,230 @@
+nav {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.home-link,
+.a-1 {
+    margin-right: -230px;
+    margin-top: 30px;
+    text-decoration: none;
+    color: initial;
+    font-size: 12px;
+    opacity: .7;
+    position: relative;
+
+}
+
+nav a:active {
+    color: red;
+}
+
+
+
+
+
+/* تجهيز المربع الصغير ليكون مخفياً فوق كل الروابط */
+.home-link::before,
+.a-1::before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 30%;
+    transform: translateX(50%);
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    opacity: 0;
+}
+
+
+.active {
+    color: red !important;
+}
+
+.active::before {
+    opacity: 1 !important;
+}
+
+.b-1 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav End */
+.s-1 {
+    background-image: url(6023787569784491544.jpg);
+    width: 1000px;
+    height: 880px;
+    position: relative;
+
+}
+
+.b-2 {
+    color: white;
+    padding: 20px;
+    width: 175px;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    border: none;
+    font-size: 10px;
+
+    background-image: linear-gradient(red, red);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 0%;
+
+    background-color: rgb(20, 19, 19);
+
+    transition: background-size 0.5s ease;
+}
+
+.b-2:focus {
+    background-size: 100% 100%;
+}
+
+.b-3 {
+    color: black;
+    background-color: transparent;
+    padding: 18px;
+    width: 150px;
+    margin-right: 5px;
+    position: absolute;
+    top: 70%;
+    left: 34%;
+    border: 1px solid black;
+    font-size: 10px;
+    transition: color .5s ease;
+}
+
+.b-3:focus {
+    color: red;
+    border-color: rgb(125, 0, 0);
+}
+
+/* s-1 end */
+.s-2 {
+    display: grid;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    grid-template-columns: 1fr 1fr 100px 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "h-2-2 . img-1 ."
+        "p-1 . img-1 ."
+        "p-1 . img-1 ."
+        "a-2 . img-1 . "
+    ;
+}
+
+.a-2 {
+    text-decoration: none;
+    color: red;
+    font-size: 10px;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    border-bottom: 1px solid red;
+    grid-area: a-2;
+    position: relative;
+}
+
+.h-2-2 {
+    grid-area: h-2-2;
+}
+
+.p-1 {
+    grid-area: p-1;
+}
+
+.img-1 {
+    grid-area: img-1;
+    width: 300px;
+    height: 500px;
+}
+
+.a-2::before {
+    content: "";
+    width: 7px;
+    background-color: transparent;
+    height: 0px;
+    border-bottom: 1px solid red;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+}
+
+.a-2::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: transparent;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    position: absolute;
+    top: 33%;
+    right: 6px;
+    transform: rotate(-45deg);
+}
+
+/* s-2 end */
+.s-3 {
+    margin-top: 50px;
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "t-3 t-3 t-3"
+        "an an cu"
+        "se se se"
+    ;
+    gap: 15px;
+    margin: 20px auto;
+
+}
+
+.p-2,
+.h-2-3 {
+    margin-left: 40px;
+    grid-area: t-3;
+}
+
+.p-2 {
+    font-size: 10px;
+}
+
+.h-2-3 {
+    padding: 12px;
+    margin-left: 26px;
+}
+
+.an,
+.cu,
+.se {
+    background-color: #eee;
+}
+
+.an {
+    grid-area: an;
+}
+
+.cu {
+    grid-area: cu;
+}
+
+.se {
+    grid-area: se;
+}
